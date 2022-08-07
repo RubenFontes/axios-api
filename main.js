@@ -41,7 +41,7 @@ function updateUser(id, userUpdate){
 const userUpdate = {
     name: "Guest",
     avatar: "https://source.unsplash.com/300x300",
-    city: "Dallas"
+    city: "Local"
 }
 
 function deleteUser(id){
