@@ -1,4 +1,4 @@
-const url = "http://localhost:5500/api"
+const url = "http://localhost:5500/api" 
 
 function getUsers(){
     axios.get(url)
@@ -17,9 +17,9 @@ function addNewUser(){
 }
 
 const newUser = {
-     name: "Maria Vitória",
+     name: "Lorem Ipsum",
      avatar: "https://source.unsplash.com/300x300", 
-     city: "Bayeux"
+     city: "New York"
 }
 
 function getUser(){
@@ -39,9 +39,9 @@ function updateUser(id, userUpdate){
 }
 
 const userUpdate = {
-    name: "Gabriel Silva",
+    name: "Guest",
     avatar: "https://source.unsplash.com/300x300",
-    city: "Bayeux"
+    city: "Dallas"
 }
 
 function deleteUser(id){
